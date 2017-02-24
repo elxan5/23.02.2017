@@ -1,0 +1,126 @@
+html,body{
+	background: url(../photo/weather.jpg) no-repeat;
+    background-size: cover;
+}
+
+.rain {
+	display: inline-block;
+
+}
+i{
+	color:#bae9f4;
+}
+.rain >i{
+	
+	top:0;
+    left:0;
+    height: 50px;
+	width: 50px;
+    animation: cloud 6s infinite;
+    position: relative;
+}
+
+@keyframes cloud{
+from{top:0px;}
+to{top:500px;}
+}
+
+@keyframes first{
+from{top:0px;}
+to{top:580px;}
+}
+/*first*/
+.first{
+display: inline-block;
+}
+.rain>.first>i{
+animation: first 1s 0.1s infinite;
+top:0;
+height: 0;
+position:relative;
+ height: 50px;
+	width: 50px;
+}
+/*end first*/
+
+    /*second*/
+.second{
+display: inline-block;
+}
+.rain>.second>i{
+animation: first 1.4s 0.2s infinite;
+top:0;
+height: 0;
+position:relative;
+ height: 50px;
+	width: 50px;
+}
+     
+     /*three*/
+.three{
+display: inline-block;
+}
+.rain>.three>i{
+animation: first .9s .1s infinite;
+top:0;
+height: 0;
+position:relative;
+ height: 50px;
+	width: 50px;
+}
+/*end three*/
+
+     /*four*/
+.four{
+display: inline-block;
+}
+.rain>.four>i{
+  animation: first 2s .2s infinite;
+  top:0;
+  height: 0;
+  position:relative;
+  height: 50px;
+  width: 50px;
+}
+       /*five*/
+.five{
+display: inline-block;
+}
+.rain>.five>i{
+  animation: first .6s .1s infinite;
+  top:0;
+  height: 0;
+  position:relative;
+  height: 50px;
+  width: 50px;
+}
+/*end five*/
+
+    /*six*/
+.six{
+display: inline-block;
+}
+.rain>.six>i{
+  animation: first 2.5s .2s infinite;
+  top:0;
+  height: 0;
+  position:relative;
+  height: 50px;
+  width: 50px;
+}
+/*end six*/
+
+      /*seven*/
+.seven{
+display: inline-block;
+}
+.rain>.seven>i{
+  animation: first .8s .2s infinite;
+  top:0;
+  height: 0;
+  position:relative;
+  height: 50px;
+  width: 50px;
+}
+
+
